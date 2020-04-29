@@ -1,0 +1,22 @@
+.fadeInDown {
+
+
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+    animation-name: fadeInDown;
+    -webkit-animation-name: fadeInDown;
+
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity:0;
+    }
+
+    to{
+        opacity: 1;
+
+    }
+}
